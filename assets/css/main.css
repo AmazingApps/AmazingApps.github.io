@@ -1622,7 +1622,7 @@
 	}
 
 	body {
-		background: #312450;
+		background: #bababa;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1976,7 +1976,7 @@
 		button.special,
 		.button.special {
 			background-color: #000000;
-			color: #312450 !important;
+			color: #bababa !important;
 		}
 
 			input[type="submit"].special:after,
@@ -2406,7 +2406,7 @@
 		}
 
 	select option {
-		background-color: #312450;
+		background-color: #bababa;
 		color: #000000;
 	}
 
@@ -2552,7 +2552,7 @@
 			display: block;
 			background: #000000;
 			border-radius: 100%;
-			color: #312450;
+			color: #bababa;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -3526,7 +3526,7 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #bababa;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3763,7 +3763,7 @@
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #000000;
 			}
 
 			#sidebar nav a:after {
