@@ -1882,7 +1882,6 @@
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
-		appearance: none;
 		-moz-transition: border-color 0.2s ease;
 		-webkit-transition: border-color 0.2s ease;
 		-ms-transition: border-color 0.2s ease;
@@ -2340,7 +2339,6 @@
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
-		appearance: none;
 		background: rgba(255, 255, 255, 0.05);
 		border-radius: 0.25em;
 		border: none;
@@ -2430,7 +2428,6 @@
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
-		appearance: none;
 		display: block;
 		float: left;
 		margin-right: -2em;
@@ -3064,7 +3061,6 @@
 			-ms-justify-content: center;
 			justify-content: center;
 			width: 50em;
-			-ms-flex: 1;
 		}
 
 			.spotlights > section > .content > .inner {
