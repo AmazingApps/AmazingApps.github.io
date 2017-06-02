@@ -3079,10 +3079,6 @@
 				opacity: 1;
 			}
 
-		.spotlights > section.inactive > .image:before, body.is-loading .spotlights > section > .image:before {
-			opacity: 1;
-		}
-
 		.spotlights > section.inactive > .content > .inner, body.is-loading .spotlights > section > .content > .inner {
 			-moz-transform: translateX(-1em);
 			-webkit-transform: translateX(-1em);
