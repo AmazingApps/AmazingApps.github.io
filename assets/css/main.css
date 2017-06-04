@@ -3250,72 +3250,82 @@ body.is-loading .wrapper.fade>.inner {
 	opacity: 0;
 }
 
+
 /*Language*/
 
 #lang-switch {
-			position: absolute;
-			right: 0px;
-			z-index: 1;
-		}
-		#lang-switch .btn {
-			-moz-appearance: none;
-			-webkit-appearance: none;
-			-ms-appearance: none;
-			-moz-transition: border-color 0.2s ease;
-			-webkit-transition: border-color 0.2s ease;
-			-ms-transition: border-color 0.2s ease;
-			transition: border-color 0.2s ease;
-			background-color: transparent;
-			border: solid 1px !important;
-			border-color: #000000 !important;
-			color: #000000 !important;
-			cursor: pointer;
-			display: inline-block;
-			font-size: 0.6em;
-			font-weight: bold;
-			height: calc(3.75em + 2px);
-			letter-spacing: 0.25em;
-			line-height: 3.75em;
-			outline: 0;
-			padding: 0 2em;
-			position: relative;
-			text-align: center;
-			text-decoration: none;
-			text-transform: uppercase;
-			white-space: nowrap;
-		}
-		#lang-switch .btn:hover {
-			border-color: rgba(255, 255, 255, 0.55) !important;
-		}
-		#lang-switch .btn::after {
-			-moz-transform: scale(0.25);
-			-webkit-transform: scale(0.25);
-			-ms-transform: scale(0.25);
-			transform: scale(0.25);
-			-moz-pointer-events: none;
-			-webkit-pointer-events: none;
-			-ms-pointer-events: none;
-			pointer-events: none;
-			-moz-transition: opacity 0.2s ease, -moz-transform 0.2s ease;
-			-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
-			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
-			transition: opacity 0.2s ease, transform 0.2s ease;
-			background: #000000;
-			content: '';
-			height: 100%;
-			left: 0;
-			opacity: 0;
-			position: absolute;
-			top: 0;
-			width: 100%;
-		}
-		#lang-switch .btn:hover::after {
-			opacity: 0.05;
-			-moz-transform: scale(1);
-			-webkit-transform: scale(1);
-			-ms-transform: scale(1);
-			transform: scale(1);
-		}
+	position: absolute;
+	right: 0px;
+	z-index: 1;
+}
+
+#lang-switch .btn {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	-moz-transition: border-color 0.2s ease;
+	-webkit-transition: border-color 0.2s ease;
+	-ms-transition: border-color 0.2s ease;
+	transition: border-color 0.2s ease;
+	background-color: transparent;
+	border: solid 1px !important;
+	border-color: #000000 !important;
+	color: #000000 !important;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 0.6em;
+	font-weight: bold;
+	height: calc(3.75em + 2px);
+	letter-spacing: 0.25em;
+	line-height: 3.75em;
+	outline: 0;
+	padding: 0 2em;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+#lang-switch .btn:hover {
+	border-color: rgba(255, 255, 255, 0.55) !important;
+}
+
+#lang-switch .btn::after {
+	-moz-transform: scale(0.25);
+	-webkit-transform: scale(0.25);
+	-ms-transform: scale(0.25);
+	transform: scale(0.25);
+	-moz-pointer-events: none;
+	-webkit-pointer-events: none;
+	-ms-pointer-events: none;
+	pointer-events: none;
+	-moz-transition: opacity 0.2s ease, -moz-transform 0.2s ease;
+	-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
+	-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
+	transition: opacity 0.2s ease, transform 0.2s ease;
+	background: #000000;
+	content: '';
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+#lang-switch .btn:hover::after {
+	opacity: 0.05;
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.incap_page-tooltip {
+	display: none!important
+}
+
 
 /* Header */
 
