@@ -3255,7 +3255,7 @@ body.is-loading .wrapper.fade>.inner {
 
 #lang-switch {
 	position: absolute;
-	right: 0px;
+	right: 90px;
 	z-index: 1;
 }
 

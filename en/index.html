@@ -10,17 +10,34 @@
 	<title>Amazing Apps</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="shortcut icon" href="..\images/favicon.ico">
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="..\assets/css/main.css" />
-	<!--[if lte IE 9]><link rel="stylesheet" href="..\assets/css/ie9.css" /><![endif]-->
-	<!--[if lte IE 8]><link rel="stylesheet" href="..\assets/css/ie8.css" /><![endif]-->
+	<link rel="shortcut icon" href="/images/favicon.ico">
+	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	    crossorigin="anonymous">
+
 	<script src="/assets/js/ga.js"></script>
+	<script src="/assets/js/jquery.min.js"></script>
+
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	    crossorigin="anonymous"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 </head>
 
 <body>
-	<div id="lang-switch">
-		<a href="http://amazingapps.org" class="btn">简体中文</a>
+	<div id="lang-switch" class="btn-group">
+
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				  <span class="glyphicon glyphicon-text-background"></span>
+				</button>
+		<ul class="dropdown-menu">
+			<li><a href="/">简体中文</a></li>
+			<li><a href="/tw/">繁體中文</a></li>
+			<li><a href="/en/">English</a></li>
+		</ul>
 	</div>
 
 	<!-- Wrapper -->
@@ -48,8 +65,7 @@
 				<div class="content">
 					<div class="inner">
 						<h2>Amazing Windows Apps</h2>
-						<p><a href="https://en.wikipedia.org/zh/Microsoft_Windows">Windows</a> is a universal PC OS developed by <a href="https://www.microsoft.com/">Microsoft</a> corporation. <br
-							/>Amazing Windows Apps aims to fantastic apps on Windows.</p>
+						<p><a href="https://en.wikipedia.org/zh/Microsoft_Windows">Windows</a> is a universal PC OS developed by <a href="https://www.microsoft.com/">Microsoft</a>							corporation. <br />Amazing Windows Apps aims to fantastic apps on Windows.</p>
 						<ul class="actions">
 							<li><a href="https://www.gitbook.com/read/book/amazing-apps/windows-apps-that-amaze-us" class="button">Click read to Gitbook</a></li>
 							<li><a href="http://windows.amazingapps.org" class="button">Click read to Mirror</a></li>
@@ -88,7 +104,8 @@
 				<div class="content">
 					<div class="inner">
 						<h2>Android</h2>
-						<p><a href="https://en.wikipedia.org/wiki/Android">Android</a> is an open- source moblie OS based on Linux, developed by <a href="https://google.com">Google</a></p>
+						<p><a href="https://en.wikipedia.org/wiki/Android">Android</a> is an open- source moblie OS based on Linux, developed
+							by <a href="https://google.com">Google</a></p>
 						<ul class="actions">
 							<li><a href="#" class="button">Maybe One Day</a></li>
 						</ul>
@@ -100,7 +117,8 @@
 				<div class="content">
 					<div class="inner">
 						<h2>iOS</h2>
-						<p><a href="https://en.wikipedia.org/wiki/Ios">iOS</a> is a proprietary OS that <a href="https://www.apple.com/">Apple</a>develop for moblie devices, supporting iPhone, iPod touch and iPad.</p>
+						<p><a href="https://en.wikipedia.org/wiki/Ios">iOS</a> is a proprietary OS that <a href="https://www.apple.com/">Apple</a>develop
+							for moblie devices, supporting iPhone, iPod touch and iPad.</p>
 						<ul class="actions">
 							<li><a href="#" class="button">Maybe One Day</a></li>
 						</ul>
@@ -112,7 +130,7 @@
 				<div class="content">
 					<div class="inner">
 						<h2>Firefox Addons</h2>
-						<p><a href="https://en.wikipedia.org/wiki/Firefox">Mozilla Firefox</a> is an open-source web browser developed by <a href="https://www.mozilla.org">Mozilla</a> found and its Subsidiary. Here we introduce its addons.</p>
+						<p><a href="https://en.wikipedia.org/wiki/Firefox">Mozilla Firefox</a> is an open-source web browser developed by <a href="https://www.mozilla.org">Mozilla</a>							found and its Subsidiary. Here we introduce its addons.</p>
 						<ul class="actions">
 							<li><a href="#" class="button">Coming Soon</a></li>
 						</ul>
@@ -125,17 +143,20 @@
 		<section id="two" class="wrapper style3 fade-up">
 			<div class="inner">
 				<h2>What we do</h2>
-				<p>Amazing Apps doesn't stack apps into a list. All apps in our lists are listed after our manual review and meet following conditions.</p>
+				<p>Amazing Apps doesn't stack apps into a list. All apps in our lists are listed after our manual review and meet following
+					conditions.</p>
 				<div class="features">
 					<section>
 						<span class="icon major fa-code"></span>
 						<h3>Well-Maintained</h3>
-						<p>If the app requires to pay, it must be well-maintained and receive cyclical patched. If it is free or open-source, it can stopped being maintained after general project goals achieved or no obvious bugs any more. </p>
+						<p>If the app requires to pay, it must be well-maintained and receive cyclical patched. If it is free or open-source,
+							it can stopped being maintained after general project goals achieved or no obvious bugs any more. </p>
 					</section>
 					<section>
 						<span class="icon major fa-lock"></span>
 						<h3>Privacy</h3>
-						<p>Developers should respect and protect users privacy. Private info from users should never be exposed to any third party unless it is legal procedure or users request.</p>
+						<p>Developers should respect and protect users privacy. Private info from users should never be exposed to any third party
+							unless it is legal procedure or users request.</p>
 					</section>
 					<section>
 						<span class="icon major fa-cog"></span>
@@ -150,7 +171,8 @@
 					<section>
 						<span class="icon major fa-chain"></span>
 						<h3>Ads-Limited</h3>
-						<p>The apps should be free with non-invasive ads. There should not be any ad if users are required to pay first or if there are features required to be paid for.</p>
+						<p>The apps should be free with non-invasive ads. There should not be any ad if users are required to pay first or if
+							there are features required to be paid for.</p>
 					</section>
 					<section>
 						<span class="icon major fa-diamond"></span>
@@ -168,7 +190,8 @@
 		<section id="three" class="wrapper style1 fade-up">
 			<div class="inner">
 				<h2>Get in touch</h2>
-				<p>Contact us via our GitHub Org page, email, Telegram group, etc. All methods are listed below. Your feedback is always welcome.</p>
+				<p>Contact us via our GitHub Org page, email, Telegram group, etc. All methods are listed below. Your feedback is always
+					welcome.</p>
 				<div class="split style1">
 					<section>
 						<div id="disqus_thread"></div>
