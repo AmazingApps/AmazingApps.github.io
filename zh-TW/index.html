@@ -10,21 +10,34 @@
 	<title>Amazing Apps</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="shortcut icon" href="../images/favicon.ico">
+	<link rel="shortcut icon" href="/images/favicon.ico">
+	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	    crossorigin="anonymous">
+
+	<script src="/assets/js/ga.js"></script>
+	<script src="/assets/js/jquery.min.js"></script>
+
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	    crossorigin="anonymous"></script>
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="/assets/css/main.css" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	<script src="/assets/js/ga.js"></script>
 </head>
 
 <body>
-	<div id="lang-switch">
-		<a href="http://amazingapps.org/en" class="btn">English</a>
-	</div>
+	<div id="lang-switch" class="btn-group">
 
-  	<div id="lang-switch">
-		<a href="http://amazingapps.org" class="btn">简体中文</a>
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				  <span class="glyphicon glyphicon-text-background"></span>
+				</button>
+		<ul class="dropdown-menu">
+			<li><a href="/">简体中文</a></li>
+			<li><a href="/zh-TW/">正體中文</a></li>
+			<li><a href="/en/">English</a></li>
+		</ul>
 	</div>
 
 	<!-- Wrapper -->
